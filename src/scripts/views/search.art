@@ -1,0 +1,13 @@
+<div class="search">
+    <header class="search-module">
+        <div class="search-top-head">
+            <input type="text" class="search-top-search">
+                <span class="search-top-tip">可搜索物品或店铺</span>
+            <div class="search-top-btn">
+                <span class="yo-ico">搜索</span>
+            </div>
+        </div>
+    </header>
+    <main class="searchMain">
+    </main>
+</div>

@@ -1,0 +1,15 @@
+{{each productList}}
+    <li class="product-item" data-id="{{$value.AucId}}">
+        <a href="#">
+            <span class="product-Ems"><span>{{$value.EmsTraPrice}}</span><img></span>
+            <span class="product-hua"><span>{{$value.OrchidFloSort}}</span><img></span>
+            <img src="{{$value.MidSrc}}">
+            <div class="product-desc">
+                <p class="product-title">{{$value.AucTitle}}</p>
+                <p class="product-price">￥<span class="product-price-num">{{$value.ImmPrice}}</span><span class="product-price-auction"></span><span class="product-price-jiage"></span></p>
+                <p class="product-days">剩余<span class="product-days-surplus">01时</span></p>
+                <p class="product-auction"><span class="product-auction-num">{{$value.PriceNum}}</span>次出价</p>
+            </div>
+        </a>
+    </li>
+{{/each}}

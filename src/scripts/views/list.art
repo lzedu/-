@@ -1,0 +1,102 @@
+<div class="list" id="container">
+    <header class="home-search-module">
+    </header>
+    <header class="headerbar">
+        <div class="list-chhoose">
+            <div class="list-item-choose list-city"><span class="list-header-top list-city-span">全部</span><span class="yo-ico">&#xe661;</span></div>
+            <div class="list-item-choose list-recom"><span class="list-header-top list-recom-span">所在地</span><span class="yo-ico">&#xe661;</span></div>
+            <div class="list-item-choose list-sort"><span class="list-header-top list-sort-span">综合排序</span><span class="yo-ico">&#xe661;</span></div>
+            <div class="list-item-choose list-sort"><span class="list-header-top list-sort-span">筛选</span><span class="yo-ico">&#xe661;</span></div>
+        </div>
+        <div id="topPopover0" class="popover" data-id="0" style="display: none; transform-origin: 0px 0px; opacity: 1; transform: scale(1, 1);">
+			<div class="popover-position">
+				<div class="scroll-wrapper">
+					<div class="scroll">
+						<ul id="filterClass" class="table-view">
+                            <li class="table-view-item list-choose-desc" data-id="100"><a>全部</a></li>
+                            {{each chooseLanList}}
+                            <li class="table-view-item list-choose-desc" data-id="{{$value.ClassId}}">
+                                <a>{{$value.Title}}</a>
+                            </li>
+                            {{/each}}
+                            {{each chooseList}}
+                            <li class="table-view-item list-choose-desc" data-id="{{$value.ClassId}}">
+                                <a>{{$value.Title}}</a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                        <ul id="filterSorts">
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div id="topPopover1" class="popover" data-id="1" style="transform-origin: 0px 0px; opacity: 1; transform: scale(1, 1); display: none;">
+			<div class="scroll-wrapper">
+				<div class="scroll">
+					<ul id="topPopover1-ul" class="table-view">
+                    <li class="table-view-cell">所在地</li>
+                        <li class="table-view-cell">浙江</li>
+                        <li class="table-view-cell">江苏</li>
+                        <li class="table-view-cell">四川</li>
+                        <li class="table-view-cell">广东</li>
+                        <li class="table-view-cell">云南</li>
+                        <li class="table-view-cell">贵州</li>
+                        <li class="table-view-cell">福建</li>
+                        <li class="table-view-cell">重庆</li>
+                        <li class="table-view-cell">上海</li>
+                        <li class="table-view-cell">北京</li>
+                        <li class="table-view-cell">天津</li>
+                        <li class="table-view-cell">山东</li>
+                        <li class="table-view-cell">河南</li>
+                        <li class="table-view-cell">湖北</li>
+                        <li class="table-view-cell">湖南</li>
+                        <li class="table-view-cell">安徽</li>
+                        <li class="table-view-cell">广西</li>
+                        <li class="table-view-cell">河北</li>
+                        <li class="table-view-cell">山西</li>
+                        <li class="table-view-cell">黑龙江</li>
+                        <li class="table-view-cell">吉林</li>
+                        <li class="table-view-cell">辽宁</li>
+                        <li class="table-view-cell">江西</li>
+                        <li class="table-view-cell">陕西</li>
+                        <li class="table-view-cell">甘肃</li>
+                        <li class="table-view-cell">青海</li>
+                        <li class="table-view-cell">宁夏</li>
+                        <li class="table-view-cell">内蒙古</li>
+                        <li class="table-view-cell">西藏</li>
+                        <li class="table-view-cell">海南</li>
+                        <li class="table-view-cell">新疆</li>
+                        <li class="table-view-cell">台湾</li>
+                        <li class="table-view-cell">香港</li>
+                        <li class="table-view-cell">澳门</li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+        <div id="topPopover2" class="popover"  data-id="2" style="display: none;">
+			<div class="scroll-wrapper">
+				<div class="scroll">
+					<ul id="topPopover2-ul" class="table-view">
+                        <li class="table-view-cell" data-id="0">综合排序</li>
+                        <li class="table-view-cell" data-id="1">刚刚上架</li>
+                        <li class="table-view-cell" data-id="2">即将结束</li>
+                        <li class="table-view-cell" data-id="3">价格最低</li>
+                        <li class="table-view-cell" data-id="4">价格最高</li>
+                        <li class="table-view-cell" data-id="5">出价最多</li>
+                        <li class="table-view-cell" data-id="6">出价最少</li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+    </header>
+    <main class="listMain">
+        <div class="listMainBody">
+        <div class="list-lists-all">
+            <ul class="list-list">
+            </ul>
+            <p class="list-loading">正在努力加载...<img src="/assets/images/ajax-loader.gif"></p>
+        </div>
+        </div>
+    </main>
+</div>

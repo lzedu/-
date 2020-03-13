@@ -1,0 +1,95 @@
+.top-head{
+    display: flex;
+    .shop-title-text{
+        flex:1;
+        text-align: center;
+        color: #fff;
+        font-size: 0.2rem;
+    }
+}
+
+.search-module{
+    background: #95C519;
+}
+.shop .shopbody{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y:scroll; 
+    .headerbar{
+        position: relative;
+        background: #fff;
+        .shop-chhoose{
+            display: flex;
+            .shop-header-top{
+                padding-right: 0.1rem;
+            }
+            .shop-item{
+                flex: 1;
+                text-align: center;
+                color: #666;
+                font-size: 0.16rem;
+                @include border(0 1px 1px 0,#ccc);
+                padding: 0.06rem 0;
+            }
+        }
+        .popover{
+            max-height: 3rem;
+            overflow-y: scroll;
+            position: absolute;
+            background: #fff;
+            width: 100%;
+            .table-view-cell{
+                font-size: 0.16rem;
+                padding: 0.1rem;
+                @include border(0 0 1px 0,#ccc);
+            }
+        }
+    }
+    .shop-shops-all{
+        flex: 1;
+        background: #fff;
+        // overflow-y: hidden;
+        .shop-list{
+            .shop-item{
+                padding: 0.1rem;
+                border-bottom: 1px solid #ccc;
+                a{
+                    display: block;
+                    width: 100%;
+                    display: flex;
+                    .shop-item-left{
+                        margin-right: 0.11rem;
+                        img{
+                            width: 0.7rem;
+                            height: 0.7rem;
+                            vertical-align: middle;
+                        }
+                    }
+                    .shop-item-right{
+                        .shop-item-shopname{
+                            font-size: 0.16rem;
+                            color: #666;
+                        }
+                        .shop-item-username{
+                            font-size: 0.14rem;
+                            color: #95C519;
+                        }
+                        .shop-item-addrDate{
+                            font-size: 0.14rem;
+                            color: #999;
+                        }
+                    }
+                }
+            }
+        }
+    }
+            .shop-loading{
+                text-align: center;
+                font-size: 0.12rem;
+                display: none;
+                img{
+                    width: 0.12rem;
+                }
+            }
+}

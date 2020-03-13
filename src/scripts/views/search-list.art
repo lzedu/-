@@ -1,0 +1,27 @@
+<div class="search-hot-tui">
+    <div class="search-sort">
+        <div class="search-sort-pro active" data-id="pro" data-for="sort-hot-list">搜物品</div>
+        <div class="search-sort-shop" data-id="shop" data-for="sort-hot-list-shop">搜店铺</div>
+    </div>
+    <div class="search-detail">
+        <h2 class="sort-hot-title">热门搜索</h2>
+        <ul class="sort-hot-list active">
+            {{each hotList}}
+            <li class="sort-hot-item">{{$value}}</li>
+            {{/each}}
+        </ul>
+        <ul class="sort-hot-list-shop">
+            {{each hotListShop}}
+            <li class="sort-hot-item">{{$value}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</div>
+<div class="search-result">
+    <p class="search-result-title">搜索 “<span class="search-keyword">{{searchName}}</span>”</p>
+    <ul class="search-result-list">
+        {{each resultList}}
+            <li class="search-result-item">{{$value}}</li>
+        {{/each}}
+    </ul>
+</div>

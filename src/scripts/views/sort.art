@@ -1,0 +1,41 @@
+<div class="sort">
+    <header class="headerbar">
+    <div class="headerbar-back">
+        <a href="">
+            <span class="yo-ico">&#xe8cb;</span>
+        </a>
+    </div>
+    <div class="headerbar-content">
+        <span class="yo-ico">&#xe65e;</span>
+        <input type="text">
+    </div>
+    </header>
+    <div class="catebox">
+        <div class="catebox-menu">
+            <ul class="catebox-menu-list">
+                <li class="catebox-menu-item active"><a href="">热门推荐</a></li>
+                <li class="catebox-menu-item"><a href="">鲜花</a></li>
+                <li class="catebox-menu-item"><a href="">永生花</a></li>
+                <li class="catebox-menu-item"><a href="">蛋糕</a></li>
+                <li class="catebox-menu-item"><a href="">特色礼品</a></li>
+                <li class="catebox-menu-item"><a href="">礼篮</a></li>
+                <li class="catebox-menu-item"><a href="">绿植花卉</a></li>
+            </ul>
+        </div>
+        <div class="catebox-details">
+            <div class="catebox-details-banner">
+                <img src="https://img02.hua.com/m/category/Classification/hot.png">
+            </div>
+            <div class="catebox-details-body">
+                <ul class="catebox-details-body-list">
+                    <li class="catebox-details-body-item"><a href="#"><span class="yo-ico">&#xe602;</span><p>全部</p></a></li>
+                    <li class="catebox-details-body-item"><a href="#"><img src="https://img02.hua.com/m/category/Classification/m_category_hot_Lover.png"><p>送恋人鲜花</p></a></li>
+                    <li class="catebox-details-body-item"><a href="#"><img src="https://img02.hua.com/m/category/Classification/m_category_hot_Lover.png"><p>送长辈鲜花</p></a></li>
+                    <li class="catebox-details-body-item"><a href="#"><img src="https://img02.hua.com/m/category/Classification/m_category_hot_Lover.png"><p>生日鲜花</p></a></li>
+                    <li class="catebox-details-body-item"><a href="#"><img src="https://img02.hua.com/m/category/Classification/m_category_hot_Lover.png"><p>礼盒鲜花</p></a></li>
+                    <li class="catebox-details-body-item"><a href="#"><img src="https://img02.hua.com/m/category/Classification/m_category_hot_Lover.png"><p>永生花</p></a></li>
+                </ul>
+            </div> 
+        </div>
+    </div>
+</div>

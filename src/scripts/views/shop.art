@@ -1,0 +1,82 @@
+<div class="shop">
+    <div class="shopbody">
+        <div class="headerbar">
+            <div class="shop-chhoose">
+                <div class="shop-item shop-city"><span class="shop-header-top">所在地</span><span class="yo-ico">&#xe661;</span></div>
+                <div class="shop-item shop-recom"><span class="shop-header-top">推荐店铺</span><span class="yo-ico">&#xe661;</span></div>
+                <div class="shop-item shop-sort"><span class="shop-header-top">综合排序</span><span class="yo-ico">&#xe661;</span></div>
+            </div>
+            <div id="topPopover0" data-id="0" class="popover" style="transform-origin: 0px 0px; opacity: 1; transform: scale(1, 1); display: none;">
+                <div class="scroll-wrapper">
+                    <div class="scroll">
+                        <ul id="topPopover0-ul" class="table-view">
+                            <li class="table-view-cell">所在地</li>
+                            <li class="table-view-cell">浙江</li>
+                            <li class="table-view-cell">江苏</li>
+                            <li class="table-view-cell">四川</li>
+                            <li class="table-view-cell">广东</li>
+                            <li class="table-view-cell">云南</li>
+                            <li class="table-view-cell">贵州</li>
+                            <li class="table-view-cell">福建</li>
+                            <li class="table-view-cell">重庆</li>
+                            <li class="table-view-cell">上海</li>
+                            <li class="table-view-cell">北京</li>
+                            <li class="table-view-cell">天津</li>
+                            <li class="table-view-cell">山东</li>
+                            <li class="table-view-cell">河南</li>
+                            <li class="table-view-cell">湖北</li>
+                            <li class="table-view-cell">湖南</li>
+                            <li class="table-view-cell">安徽</li>
+                            <li class="table-view-cell">广西</li>
+                            <li class="table-view-cell">河北</li>
+                            <li class="table-view-cell">山西</li>
+                            <li class="table-view-cell">黑龙江</li>
+                            <li class="table-view-cell">吉林</li>
+                            <li class="table-view-cell">辽宁</li>
+                            <li class="table-view-cell">江西</li>
+                            <li class="table-view-cell">陕西</li>
+                            <li class="table-view-cell">甘肃</li>
+                            <li class="table-view-cell">青海</li>
+                            <li class="table-view-cell">宁夏</li>
+                            <li class="table-view-cell">内蒙古</li>
+                            <li class="table-view-cell">西藏</li>
+                            <li class="table-view-cell">海南</li>
+                            <li class="table-view-cell">新疆</li>
+                            <li class="table-view-cell">台湾</li>
+                            <li class="table-view-cell">香港</li>
+                            <li class="table-view-cell">澳门</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="topPopover1" data-id="1" class="popover" style="height: 94px; transform-origin: 0px 0px; opacity: 1; transform: scale(1, 1); display: none;">
+                <div class="scroll-wrapper">
+                    <div class="scroll">
+                        <ul id="topPopover1-ul" class="table-view">
+                            <li data-id="0" class="table-view-cell">全部店铺</li>
+                            <li data-id="1" class="table-view-cell">推荐店铺</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="topPopover2" data-id="2" class="popover" style="height: 235px; display: none;">
+                <div class="scroll-wrapper">
+                    <div class="scroll">
+                        <ul id="topPopover2-ul" class="table-view">
+                            <li data-id="0" class="table-view-cell">综合排序</li>
+                            <li data-id="1" class="table-view-cell">信用度最高</li>
+                            <li data-id="2" class="table-view-cell">信用度最低</li>
+                            <li data-id="3" class="table-view-cell">开店时间短</li>
+                            <li data-id="4" class="table-view-cell">开店时间长</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop-shops-all">
+            <ul class="shop-list">
+            </ul>
+        </div>
+            <p class="shop-loading">正在努力加载...<img src="/assets/images/ajax-loader.gif"></p>
+    </div>
+</div>

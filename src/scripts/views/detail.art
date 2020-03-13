@@ -1,0 +1,12 @@
+<div class="detail">
+    <main class="detail-main">
+    </main>
+    <footer class="detail-foot">
+        <ul class="detail-foot-list">
+            <li class="detail-foot-item"><span class="yo-ico">&#xe6b8;</span><p>首页</p></li>
+            <li class="detail-foot-item"><span class="yo-ico">&#xe669;</span><p>收藏</p></li>
+            <li class="detail-foot-item"><span class="yo-ico">&#xe672;</span><p>客服</p></li>
+        </ul>
+            <div class="detail-foot-btn"><p>提交竞价</p></div>
+    </footer>
+</div>

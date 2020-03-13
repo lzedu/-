@@ -1,0 +1,15 @@
+<div class="like" id="container">
+    <!--<header class="home-search-module">
+    </header>-->
+    <main class="likeMain">
+        <div class="like-likes-all">
+        <div id="loginTips" class="pt15 pb15 bgwhite" style="transform-origin: 0px 0px; opacity: 1; transform: scale(1, 1);">
+			<p class="c9 f15" style="text-align: center;co">您还没有登录，登录后查看更多推荐</p>
+			<div class="f16" onclick="loginBtnAction()">马上登录</div>
+		</div>
+            <ul class="like-like">
+            </ul>
+            <!--<p class="like-loading">正在努力加载...<img src="/assets/images/ajax-loader.gif"></p>
+        --></div>
+    </main>
+</div>

@@ -1,0 +1,3 @@
+{{each hotList}}
+    <li class="sort-hot-item">{{$value}}</li>
+{{/each}}

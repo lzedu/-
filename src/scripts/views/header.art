@@ -1,0 +1,11 @@
+    <div class="top-head">
+        <div class="top-download">
+            <img src="http://m.hmlan.com/h5/content/img/dl.png">
+        </div>
+        <div class="top-search">
+            <span class="top-search-tip">可搜索物品或店铺</span>
+        </div>
+        <div class="top-login">
+            <span class="yo-ico">&#xe6bc;</span>
+        </div>
+    </div>

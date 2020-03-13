@@ -1,0 +1,19 @@
+<div class="forum" id="container">
+    <!--<header class="home-search-module">
+    </header>-->
+    <div class="headerbar">
+        <div class="forum-chhoose">
+            <div data-orderStyle="0" class="forum-item forum-city active"><span class="forum-header-top">最新回复</span></div>
+            <div data-orderStyle="1" class="forum-item forum-recom"><span class="forum-header-top">最新发表</span></div>
+            <div data-type="jh" class="forum-item forum-sort"><span class="forum-header-top">精华区</span></div>
+            <div data-type="yc" class="forum-item forum-sort"><span class="forum-header-top">原创区</span></div>
+        </div>
+    </div>
+    <main class="forumMain">
+        <div class="forum-forums-all">
+            <ul class="forum-forum">
+            </ul>
+            <p class="forum-loading">正在努力加载...<img src="/assets/images/ajax-loader.gif"></p>
+        </div>
+    </main>
+</div>

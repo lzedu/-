@@ -1,0 +1,8 @@
+<li class="table-view-cell" data-id="" data-name="全部">
+    <a>全部</a>
+</li>
+{{each chooseList2}}
+<li class="table-view-cell" data-id="{{$value.ClassId}}">
+    <a>{{$value.Title}}</a>
+</li>
+{{/each}}

@@ -1,0 +1,141 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .headerbar{
+        position: relative;
+        background: #fff;
+        .list-chhoose{
+            display: flex;
+            .list-item-choose{
+                flex: 1;
+                text-align: center;
+                color: #666;
+                font-size: 0.16rem;
+                @include border(0 1px 0 0,#ccc);
+                // border-right: 0.01rem solid #ccc;
+                // border-bottom: 0.01rem solid #ccc;
+                padding: 0.06rem 0;
+            }
+        }
+        
+        .popover{
+            max-height: 3rem;
+            overflow-y: scroll;
+            position: absolute;
+            background: #fff;
+            width: 100%;
+            z-index: 1000;
+            .scroll{
+                display: flex;
+                ul{
+                    width: 100%;
+                }
+                #filterClass{
+                    background: #eee;
+                }
+            }
+            .table-view-cell,.table-view-item
+            {
+                a{
+                    color: #666;
+                }
+                font-size: 0.16rem;
+                padding: 0.1rem;
+                @include border(0 0 1px 0,#ccc);
+            }
+            .active{
+                background: #fff;
+            }
+        }
+        .popover:nth-child(1){
+            .table-view-cell{
+                @include border(0 1px 1px 0,#ccc);
+            }
+        }
+    }
+    .list-lists-all{
+        flex: 1;
+        background: #fff;
+        overflow-y: scroll;
+        height: 100%;
+        .list-list{
+            // display: flex;
+            .list-item{
+                padding: 0.1rem;
+                @include border(0 0 1px 0,#ccc);
+                // border-bottom: 1px solid #ccc;
+                a{
+                    display: block;
+                    width: 100%;
+                    display: flex;
+                    .list-item-left{
+                        margin-right: 0.11rem;
+                        img{
+                            width: 0.85rem;
+                            height: 0.85rem;
+                            vertical-align: middle;
+                        }
+                    }
+                    .list-item-right{
+                        width: 100%;
+                        .list-item-listname{
+                            font-size: 0.16rem;
+                            color: #666;
+                        }
+                        .list-item-listshop{
+                            margin-top: 0.04rem;
+                            font-size: 0.12rem;
+                            color: #95C519;
+                            display: flex;
+                            justify-content: space-between;
+                            .list-item-addr{
+                                color: #999;
+                            }
+                        }
+                        .list-item-listPrice{
+                            font-size: 0.12rem;
+                            color: #999;
+                            display: flex;
+                            justify-content: space-between;
+                            .list-item-price{
+                                color: #F60000;
+                                font-size: 0.14rem;
+                            }
+                        }
+                        .list-item-priceAdd{
+                            // margin-top: 0.04rem;
+                            font-size: 0.12rem;
+                            color: #999;
+                            display: flex;
+                            justify-content: space-between;
+                            span{
+                                border: 1px solid #ccc;
+                                padding: 0.02rem;
+                                border-radius: 0.02rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nodata-title{
+            text-align: center;
+            // flex: 1;
+            display: block;
+            height: 100%;
+            font-size: 0.2rem;
+            font-weight: 400;
+            justify-self: center;
+            align-self: center;
+        }
+        .list-loading{
+            text-align: center;
+            font-size: 0.12rem;
+            display: none;
+            img{
+                width: 0.12rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+<div id="container">
+    <header class="home-search-module">
+    </header>
+    <main></main>
+    <footer class="change-footer-module">
+        <ul>
+            <li data-to="home" class="home active"><span class="yo-ico">&#xe6b8;</span><p>首页</p></li>
+            <li data-to="like" class="like"><span class="yo-ico">&#xe669;</span><p>关注</p></li>
+            <li data-to="shop" class="shop"><span class="yo-ico">&#xe676;</span><p>店铺</p></li>
+            <li data-to="forum" class="forum"><span class="yo-ico">&#xe731;</span><p>论坛</p></li>
+            <li data-to="profile" class="profile"><span class="yo-ico">&#xe78b;</span><p>我的</p></li>
+        </ul>
+    </footer>
+</div>

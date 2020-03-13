@@ -1,0 +1,16 @@
+{{each shopList}}
+    <li class="shop-item"><a href="">
+        <div class="shop-item-left">
+            <img src="{{$value.ShopSmallIcon}}">
+        </div>
+        <div class="shop-item-right">
+            <p class="shop-item-shopname">{{$value.ShopName}}</p>
+            <p class="shop-item-username">{{$value.UserName}}</p>
+            <p class="shop-item-addrDate">
+                <span class="shop-item-addr">{{$value.UserProvince}}{{$value.UserCity}}</span>
+                <span class="shop-item-Date"></span>
+            </p>
+        </div>
+        </a>
+    </li>
+{{/each}}

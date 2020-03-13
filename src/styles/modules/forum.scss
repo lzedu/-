@@ -1,0 +1,99 @@
+.forum{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    .headerbar{
+        background: #fff;
+        .forum-chhoose{
+            display: flex;
+            .forum-item{
+                flex: 1;
+                text-align: center;
+                color: #666;
+                font-size: 0.16rem;
+                padding: 0.06rem 0;
+            }
+            .active{
+                color: #95C519;
+                border-bottom: #95C519 2px solid;
+            }
+        }
+    }
+    .forum-forums-all{
+        flex: 1;
+        background: #fff;
+        overflow-y: scroll;
+        .forum-forum{
+            // display: flex;
+            .forum-item{
+                padding: 0.1rem;
+                @include border(0 0 1px 0,#ccc);
+                // border-bottom: 1px solid #ccc;
+                a{
+                    display: block;
+                    width: 100%;
+                    display: flex;
+                    .forum-item-right{
+                        width: 100%;
+                        .forum-item-title{
+                            font-weight: 400;
+                            font-size: 0.16rem;
+                            color: #666;
+                            .Isimage,.Iselite,.TopicIsOriginal{
+                                padding: 0.02rem;
+                                background: #95C519;
+                                color: #fff;
+                                margin: 0 0.02rem;
+                                font-size: 0.14rem;
+                                border-radius: 0.02rem;
+                            }
+                            .Iselite{
+                                background: #f70;
+                            }
+                            .TopicIsOriginal{
+                                background: #007aff;
+                            }
+                        }
+                        .forum-item-forumAuthor{
+                            margin-top: 0.1rem;
+                            font-size: 0.13rem;
+                            color: #95C519;
+                            display: flex;
+                            justify-content: space-between;
+                            .forum-item-resttime{
+                                color: #999;
+                                span{
+                                    color: #95C519;
+                                }
+                            }
+                        }
+                        .forum-item-content{
+                            margin-top: 0.1rem;
+                            font-size: 0.14rem;
+                            color: #999;
+                            display: flex;
+                            justify-content: space-between;
+                            .forum-item-price{
+                                color: #F60000;
+                                font-size: 0.14rem;
+                            }
+                            .forum-item-hot{
+                                span{
+                                    margin-left: 0.05rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .forum-loading{
+            text-align: center;
+            font-size: 0.12rem;
+            display: none;
+            img{
+                width: 0.12rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+<div class="detail-banner">
+    <div class="detail-top-icons">
+        <a href="#">
+            <span class="detail-top-icon detail-top-icon-back yo-ico">&#xe679;</span>
+        </a>
+        <a href="#">
+            <span class="detail-top-icon yo-ico">&#xe731;</span>
+        </a>
+    </div>
+
+    <div class="detail-banner-content swiper-container">
+        <div class="swiper-wrapper">
+            {{each deBanlist}}
+            <div class="swiper-slide">
+                <img src="{{$value.BigSrc}}">
+            </div>
+            {{/each}}
+        </div>
+        <div class="slider-num">
+            <span id="sliderNum1">1</span>/<span id="sliderNum2">3</span>
+        </div>
+    </div>
+</div>
+<div class="detail-content">
+    <h3 class="detail-product-name">{{deContent.AucTitle}}</h3>
+    <div class="detail-product-price">
+        <p>起拍价：￥<span>{{deContent.StartPrice}}</span></p>
+        <p>加价幅度：￥<span>{{deContent.ExtPrice}}</span></p>
+    </div>
+    <p class="detail-new-price">最新叫价：￥<span class="detail-new-price-num">{{deContent.TopPrice}}</span></p>
+    <div class="detail-text1">
+        <p class="detail-ems">运费：￥<span class="detail-ems-num">{{deContent.EmsTraPrice}}</span></p>
+        <p class="detail-jiaojia">已有<span class="detail-jiaojia-num">{{deContent.PriceNum}}</span>人出价</p>
+    </div>
+    <div class="detail-text2">
+        <p class="detail-restTime">剩余时间：<span class="detail-restDay">天</span><span class="detail-restHour"></span>时<span class="detail-restMin"></span>分<span class="detail-restSec"></span>秒</p>
+        <p class="detail-report"><span class="yo-ico detail-report-icon">&#xe5b7;</span>举报</p>
+    </div>
+</div>
+
+<div class="detail-other-content">
+    <p class="detail-start-time">开始时间：<span class="pro-start-time-dd">{{deContent.AucId}}</span></p>
+    <p class="detail-start-time">拍品编号：<span>{{deContent.AucId}}</span></p>
+    <p class="detail-start-time">拍品类别：<span>{{deContent1.TitlePath}}</span></p>
+    <p class="detail-start-time">可售数量：<span>1盆(件)</span></p>
+    <p class="detail-start-time">拍品规格：<span>{{deContent.AucSpec}}</span></p>
+    <p class="detail-start-time">拍品来自：<span>{{deContent.AucPro}}{{deContent.AucCity}}</span></p>
+</div>
+
+<div class="detail-shop-content">
+    <div class="detail-shop-basis">
+        <div class="detail-shop-basis-img">
+            <img class="shopFace" src="{{userimg}}">
+        </div>
+        <div class="detail-shop-text">
+            <p class="detail-shop-userName">{{baseUser.UserName}}</p>
+            <p class="detail-shop-userName2">{{baseUser.UserName}}
+                <img src="https://static.hmlan.com/images/new_icon/rate/seller_rate_pic/s_red_3.png"></p>
+            <p class="detail-shop-renzheng"><span class="f12 c9">手机号认证</span><span class="f12 c9">身份证认证</span><span class="f12 c9">生活照认证</span></p>
+        </div>
+        <div class="guanzhuBtn">关注</div>
+    </div>
+    <div class="detail-shop-credit" >
+            <div class="detail-shop-credit-item">
+                <p class="detail-shop-credit-data">2017/11/6</p>
+                <p class="detail-shop-credit-desc">注册时间</p>
+            </div>
+            <div class="detail-shop-credit-item">
+                <p class="detail-shop-credit-data">100.00%</p>
+                <p class="detail-shop-credit-desc">好评率</p>
+            </div>
+            <div class="detail-shop-credit-item">
+                <p class="detail-shop-credit-data">1</p>
+                <p class="detail-shop-credit-desc">粉丝数</p>
+            </div>
+        </div>
+    <div class="detail-shop-link">
+        <div class="detail-shop-link-item">
+            
+            <p class=""><img src="http://m.hmlan.com/h5/content/img/ItemsDetails%E4%BF%A1%E7%94%A8.png">信用评价</p>
+        </div>
+        <div class="detail-shop-link-item">
+            
+            <p class=""><img src="http://m.hmlan.com/h5/content/img/ItemsDetails%E5%BA%97%E9%93%BA.png">进入店铺</p>
+        </div>
+    </div>
+</div>
+
+<div class="detail-shop-pics">
+    图文详情<span class="yo-ico">&#xe6a3;</span>
+</div>

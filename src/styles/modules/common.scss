@@ -1,0 +1,29 @@
+#root{
+    height: 100%;
+    background: #E9ECF0;
+    .mt15{
+        margin-top: 0.15rem;
+    }
+    .mt5{
+        margin-top: 0.05rem;
+    }
+}
+
+@font-face{
+    font-family: 'yofont';
+    src: url('/assets/icons/iconfont.woff') format('woff'),
+         url('/assets/icons/iconfont.ttf') format('truetype');
+}
+
+@media screen and (min-device-width: 640px){
+    html{
+        font-size: 15.6269vw;
+    }
+    body{
+        font-size: 24px;
+        main{
+            width: 640px;
+            margin: 0 auto;
+        }
+    }
+}

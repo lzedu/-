@@ -1,0 +1,5 @@
+// require('./controllers/')
+// require('./controllers/home')
+// require('./controllers/sort')
+// require('./controllers/profile')
+require('./router/')

@@ -1,0 +1,16 @@
+{{each forumlist}}
+    <li class="forum-item" data-to="{{$value.TopicId}}"><a href="">
+        <div class="forum-item-right">
+            <h3 class="forum-item-title">{{$value.TopicTitle}}<span class="Isimage">{{$value.TopicIsImage}}</span><span class="Iselite">{{$value.TopicIsElite}}</span><span class="TopicIsOriginal">{{$value.TopicIsOriginal}}</span></h3>
+            <div class="forum-item-forumAuthor">
+                <p class="forum-item-author">{{$value.TopicAuthor}}</p>
+                <p class="forum-item-resttime">最后回复：<span>{{$value.TopicLastName}}</span></p>
+            </div>
+            <div class="forum-item-content">
+                <p class="forum-item-time"><span>1</span>分钟前 <span class="forum-item-boaname">{{$value.BoaName}}</span></p>
+                <p class="forum-item-hot"><span class="forum-item-dianzan yo-ico">&#xe644;</span>{{$value.DianZanNum}}<span class="forum-item-com yo-ico">&#xe667;</span>{{$value.TopicReCount}}<span class="forum-item-look yo-ico">&#xe73d;</span>{{$value.TopicHits}}</p>
+            </div>
+        </div>
+        </a>
+    </li>
+{{/each}}

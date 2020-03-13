@@ -1,0 +1,21 @@
+{{each listList}}
+    <li class="list-item" data-to="{{$value.AucId}}"><a href="">
+        <div class="list-item-left">
+            <img src="{{$value.MidSrc}}">
+        </div>
+        <div class="list-item-right">
+            <p class="list-item-listname">{{$value.AucTitle}}</p>
+            <p class="list-item-listshop"><span>{{$value.Seller}}</span><span class="list-item-addr">{{$value.AucPro}}{{$value.AucCity}}</span></p>
+            <div class="list-item-listPrice">
+                <p class="list-item-price">￥<span>{{$value.TopPrice}}</span><span class="yo-ico"></span><span class="yo-ico"></span></p>
+                <p class="list-item-resttime">剩余<span></span></p>
+            </div>
+            <div class="list-item-priceAdd">
+                <p class="list-item-startP"><span>起</span>￥{{$value.StartPrice}}</p>
+                <p class="list-item-extP"><span>加</span>￥{{$value.ExtPrice}}</p>
+                <p class="list-item-Date">{{$value.PriceNum}}人加价</p>
+            </div>
+        </div>
+        </a>
+    </li>
+{{/each}}

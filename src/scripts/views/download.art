@@ -1,0 +1,17 @@
+<div class="download">
+    <div class="download-top">
+        <img src="http://static.hmlan.com/app/images/app.jpg">
+        <div class="download-top-title">
+            <h1>兰花交易网App</h1>
+            <h3>中国兰花第一门户网站</h3>
+        </div>
+    </div>
+    <div class="download-btn">下载兰花交易网App</div>
+    <div class="download-open">打开兰花交易网App</div>
+    <div class="download-adv"><img src="http://static.hmlan.com/app/images/appdownload2.jpg"></div>
+    <div class="download-foot-list">
+        <div class="download-login"><a href=""></a></div>
+        <div class="download-index"><a href=""></a></div>
+        <div class="download-client"><a href=""></a></div>
+    </div>
+</div>

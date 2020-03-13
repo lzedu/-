@@ -1,0 +1,126 @@
+<div>
+    <div class="topLink" style="display:none;"><span class="yo-ico"></span><p>顶部</p></div>
+    <div class="banner swiper-container">
+        <div class="swiper-wrapper">
+            {{each list}}
+            <div class="swiper-slide">
+                <img src="{{$value.Imgsrc}}">
+            </div>
+            {{/each}}
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <nav class="procate">
+        <ul class="procate-list">
+            <li class="procate-item item" data-title="ChujiaSort=0">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/11.png">
+                    <p class="home-list-title">逛逛</p>
+                </a>
+            </li>
+            <li class="procate-item item">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/12.png">
+                    <p class="home-list-title">分类</p>
+                </a>
+            </li>
+            <li class="procate-item item">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/13.png">
+                    <p class="home-list-title">优店</p>
+                </a>
+            </li>
+            <li class="procate-item item">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/14.png">
+                    <p class="home-list-title">新手导购</p>
+                </a>
+            </li>
+            <li class="procate-item item" data-title="StartPrice=-1&EndPrice=1">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/15.png">
+                    <p class="home-list-title">捡漏</p>
+                </a>
+            </li>
+            <li class="procate-item item" data-title="OrderStyle=2">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/16.png">
+                    <p class="home-list-title">最新上传</p>
+                </a>
+            </li>
+            <li class="procate-item item" data-title="KeyTime=today">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/17.png">
+                    <p class="home-list-title">当天结束</p>
+                </a>
+            </li>
+            <li class="procate-item item" data-title="Tui=true">
+                <a href="">
+                    <img src="https://static.hmlan.com/images/new_icon/index/18.png">
+                    <p class="home-list-title">推荐品种</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="mt15 discountQL">
+        <img src="http://m.hmlan.com/h5/content/img/project/h1.jpg">
+    </div>
+    <div class="mt15 quickLink">
+        <h3 class="quickLink-title">
+            <img src="http://m.hmlan.com/h5/content/img/index/index-title-1.png">
+        </h3>
+        <ul class="quickLink-list">
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/21.png"><div class="quickLink-desc"><p class="home-list-title">传统品种</p><p>程梅0元起拍</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/22.png"><div class="quickLink-desc"><p class="home-list-title">下山品种</p><p>网络各地新品种</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/23.png"><div class="quickLink-desc"><p class="home-list-title">组培品种</p><p>跟随市场新动态</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/24.png"><div class="quickLink-desc"><p class="home-list-title">杂交品种</p><p>放眼科技领域</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/25.png"><div class="quickLink-desc"><p class="home-list-title">带花品种</p><p>货真价实，看花</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/26.png"><div class="quickLink-desc"><p class="home-list-title">带芽品种</p><p>买一送一，超值</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/27.png"><div class="quickLink-desc"><p class="home-list-title">植料专区</p><p>贴心呵护兰宝宝</p></div></a></li>
+            <li class="quickLink-item item"><a href="#"><img src="https://static.hmlan.com/images/new_icon/index/28.png"><div class="quickLink-desc"><p class="home-list-title">花盆专区</p><p>花小钱买好花盆</p></div></a></li>
+        </ul>
+    </div>
+    <div class="mt15 discountQL">
+        <img src="http://m.hmlan.com/h5/content/img/project/h3.jpg">
+    </div>
+    <div class="mt15 lanhuaKinds quickLink">
+        <h3 class="quickLink-title">
+            <img src="http://m.hmlan.com/h5/content/img/index/index-title-2.png">
+        </h3>
+        <ul class="quickLink-list">
+            {{each sortL1}}
+            <li class="quickLink-item" data-id="{{$value.ClassId}}"><a href="#">
+            <img src="http://m.hmlan.com/h5/content/img/index/chunlan.png">
+            <div class="quickLink-desc"><p>{{$value.Title}}</p></div></a></li>
+            {{/each}}
+            {{each sortL2}}
+            <li class="quickLink-item" data-id="{{$value.ClassId}}"><a href="#">
+            <img src="http://m.hmlan.com/h5/content/img/index/chunlan.png">
+            <div class="quickLink-desc"><p>{{$value.Title}}</p></div></a></li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="mt15 discountQL">
+        <img src="http://m.hmlan.com/h5/content/img/project/h2.jpg">
+    </div>
+    <div class="mt15 guessyoulike quickLink">
+        <h3 class="quickLink-title">
+            <img src="http://m.hmlan.com/h5/content/img/index/index-title-4.png">
+        </h3>
+        <ul class="product-list">
+            
+        </ul>
+        <p class="product-loading">正在努力加载...<img src="/assets/images/ajax-loader.gif"></p>
+    </div>
+<!--
+    <div class="foot">
+        <div class="foot-entry">
+            <div class="foot-entry-item item client"><p>电脑版</p></div>
+            <div class="foot-entry-item item service"><p>客户端下载</p></div>
+        </div>
+        <div class="foot-copyright">
+            <p>粤ICP备05013513号</p>
+            <p class="mt5">©中国兰花交易网 客服电话： <span class="tel">0757-23320046</span></p>
+        </div>
+    </div>-->
+</div>

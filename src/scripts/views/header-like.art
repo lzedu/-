@@ -1,0 +1,11 @@
+    <div class="top-head">
+        <div class="list-top-back">
+            <span class="yo-ico">&#xe6ca;</span>
+        </div>
+        <div class="list-top-title">
+            <span class="search-tip">关注</span>
+        </div>
+        <div class="top-login">
+            <span class="yo-ico">&#xe6bc;</span>
+        </div>
+    </div>
